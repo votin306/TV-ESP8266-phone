@@ -7,9 +7,9 @@
 IRsend irsend(D2);
 #define BLYNK_PRINT Serial
 
-char auth[] = "tii3OGxe8_uQ46jjapLPLYblJK9caY9U";
-char ssid[] = "ASUS_60";
-char pass[] = "3369aef687cd";
+char auth[] = "код который пришел на почту";
+char ssid[] = "название WIFI";
+char pass[] = "пароль Wifi";
 
 void setup() {
   irsend.begin();
